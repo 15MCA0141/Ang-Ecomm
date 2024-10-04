@@ -1,0 +1,8 @@
+Install json-server:
+npm i -g json-server
+To run json-server:
+json-server --watch db.json
+
+Important Links:
+https://www.npmjs.com/package/@fortawesome/angular-fontawesome
+https://ng-bootstrap.github.io/#/home

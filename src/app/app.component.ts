@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 export class AppComponent {
   title = 'ecomm-project';
 
-  constructor() {
-  }
+  constructor() {  }
 }
+
+

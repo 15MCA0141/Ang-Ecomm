@@ -1,0 +1,149 @@
+{
+  "seller": [
+    {
+      "id": "ec84",
+      "name": "Kushal Kumar",
+      "email": "kushal@seller.com",
+      "password": "undefined"
+    },
+    {
+      "id": "483c",
+      "name": "Arpan Singh",
+      "email": "arpan@seller.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "74f7",
+      "name": "Raj Aaryan",
+      "Password": "abc@123",
+      "email": "raj@seller.com"
+    },
+    {
+      "id": "8a81",
+      "name": "Peter Parker",
+      "Password": "abc@123",
+      "email": "peter@seller.com"
+    },
+    {
+      "id": "b1bd",
+      "name": "Ranjeet Patel",
+      "Password": "abc@123",
+      "email": "ranjeet@seller.com"
+    },
+    {
+      "id": "346e",
+      "name": "abc",
+      "Password": "abc",
+      "email": "abc@test.com"
+    },
+    {
+      "id": "b74e",
+      "name": "qwe",
+      "Password": "asd",
+      "email": "zxc@123.com"
+    },
+    {
+      "id": "a6b0",
+      "name": "qwe",
+      "Password": "asd",
+      "email": "zcx@qwe.com"
+    },
+    {
+      "id": "ee74",
+      "name": "abc",
+      "Password": "123",
+      "email": "abc@123.com"
+    },
+    {
+      "id": "62de",
+      "name": "Shikhar Gupta",
+      "Password": "abc@123",
+      "email": "shikhar@seller.com"
+    },
+    {
+      "id": "1a4a",
+      "name": "dsfs",
+      "Password": "",
+      "email": ""
+    },
+    {
+      "id": "ea42",
+      "email": "kumar.kush111@gmail.com",
+      "Password": "abc@123"
+    }
+  ],
+  "products": [
+    {
+      "id": "6804",
+      "name": "Keyboard",
+      "price": "1150",
+      "color": "Black",
+      "category": "Computer Peripherals",
+      "description": "Logitech Wireless Keyboard",
+      "image": "https://www.pcstudio.in/wp-content/uploads/2024/01/Logitech-Mx-Keys-S-Wireless-Keyboard-2.webp"
+    },
+    {
+      "name": "LG Monitor",
+      "price": "9999",
+      "color": "Black",
+      "category": "Computer Peripherals",
+      "description": "LG 27\" (68.58 cm) IPS Full HD monitor",
+      "image": "https://www.lg.com/content/dam/channel/wcms/in/images/monitors/27mr400-b_atrq_eail_in_c/gallery/27MR400-B-DZ-04.jpg",
+      "id": "5c55"
+    },
+    {
+      "id": "94bd",
+      "name": "Wireless Mouse",
+      "price": "500",
+      "color": "Black",
+      "category": "Computer Peripherals",
+      "description": "Logitech M50 Wireless Mouse ",
+      "image": "https://www.tpstech.in/cdn/shop/products/01_40ca05b0-f8ae-4dae-99f5-e273b53a8826.jpg?v=1615383219"
+    },
+    {
+      "id": "0417",
+      "name": "Asus Laptop",
+      "price": "175000",
+      "color": "Black",
+      "category": "Gaming Laptop",
+      "description": "Asus ROG 15.6\" FHD Gaming Laptop Computer",
+      "image": "https://m.media-amazon.com/images/I/51ZOFgc-4yL.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Watch6",
+      "price": "21897",
+      "color": "Silver",
+      "category": "Smartwatch",
+      "description": "Samsung galaxy watch6 bluetooth smartwatch (44mm)",
+      "image": "https://images.samsung.com/in/galaxy-watch6/feature/galaxy-watch6-connectivity-roaming-mo.jpg",
+      "id": "54dd"
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": "132000",
+      "color": "Titanium Gray",
+      "category": "Smartphone",
+      "description": "Samsung Galaxy S24 Ultra 5G AI Smartphone (12GB, 512GB)",
+      "image": "https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_UY327_FMwebp_QL65_.jpg",
+      "id": "e34a"
+    },
+    {
+      "id": "3ac9",
+      "name": "OnePlus Charger 100w",
+      "price": "1089",
+      "color": "White and Red",
+      "category": "Mobile Accessories",
+      "description": "Oneplus Charger Original 100W Ultra Fast Charger with USB to C Dash SUPERVOOC Cable for Oneplus",
+      "image": "https://m.media-amazon.com/images/I/41VweR-L7TL.jpg"
+    },
+    {
+      "id": "144e",
+      "name": "Sony WH-1000XM4 Headphones",
+      "price": "19988",
+      "color": "Black",
+      "category": "Headphones",
+      "description": "Sony WH-1000XM4 Industry Leading Wireless Noise Cancellation Bluetooth Over Ear Headphones with Mic",
+      "image": "https://m.media-amazon.com/images/I/51DkbWZIg+L._SL1500_.jpg"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
 body {
     font-family: sans-serif;
 }
@@ -26,4 +28,35 @@ body {
     color:aliceblue;
     cursor: pointer;
     margin-bottom: 6px;
+}
+.loginError {
+    color: red;
+}
+.msg-success {
+    color: green;
+    text-align: center;
+}
+.msg-error {
+    color: red;
+    text-align: center;
+}
+.delete-button {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+.edit-button {
+    background-color: white;
+    color: rgb(54, 2, 103);;
+    cursor: pointer;
+}
+.carousel-caption {
+    background-color: #00000082;
+    color: white;
+    border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #00000082;
+    color: white;
+    border-radius: 4px;
 }

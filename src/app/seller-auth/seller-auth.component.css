@@ -1,6 +1,17 @@
-.sign-up {
+.sign-up, .login {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 80px;
     color: rgb(54, 2, 103);
+}
+
+.toggle-auth-link {
+    font-size: 14px;
+    color: rgb(54, 2, 103);
+    cursor: pointer;
+    text-align: left;
+    margin-top: 10px;
+}
+.toggle-auth-link:active {
+    color: red;
 }

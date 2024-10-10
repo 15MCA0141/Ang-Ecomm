@@ -53,3 +53,41 @@
 h1 a {
     text-decoration: none;
 }
+
+.suggested-result {
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    opacity: 90%;
+    top: 40px;
+    width: 300px;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+}
+
+.suggested-result :hover {
+    background-color:aliceblue;
+}
+
+.suggested-result li {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 6px;
+}
+
+.suggested-result li a {
+    color: rgb(54, 2, 103);
+}
+
+.cart-count {
+    margin-left: 4px;
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: rgb(54, 2, 103);
+    color: #fff;
+}

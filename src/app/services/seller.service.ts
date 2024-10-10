@@ -21,7 +21,7 @@ export class SellerService {
   }
   userLogin(data: Login) {
     console.log('Rcvd in Service: ', data.email, data.password);
-    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`, {
+    this.http.get<SignUp[]>(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`, {
         observe: 'response',
       })
       .subscribe((result: any) => {

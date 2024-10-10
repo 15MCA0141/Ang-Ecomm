@@ -1,0 +1,25 @@
+@if (selectedProduct) {
+    <div class="row product-details-item">
+        <div class="col-sm-6">
+            <img class="product-img" src={{selectedProduct.image}} alt={{selectedProduct.name}}>
+        </div>
+        <div class="col-sm-6 details">
+            <h1>{{selectedProduct.name}}</h1>
+            <h3><b>₹ {{selectedProduct.price}}/-</b></h3>
+            <div>
+                Color: 
+                <h5 [style.backgroundColor]="selectedProduct.color" class="product-color"></h5>
+            </div>
+            <h6>Category: {{selectedProduct.category}}</h6>
+            <h6>{{selectedProduct.description}}</h6>
+            <button class="form-button" *ngIf="!removeCart" (click)="addToCart()">Add to Cart</button>
+            <button class="form-button" *ngIf="removeCart" (click)="removeFromCart(selectedProduct.id)">Remove from Cart</button>
+            <button class="form-button">Buy Now</button>
+            <div class="quantity-group">
+                <button class="form-button" (click)="handleQuantity('minus')">-</button>
+                <input type="text" [(ngModel)]="productQty"/>
+                <button class="form-button" (click)="handleQuantity('plus')">+</button>
+            </div>
+        </div>
+    </div>
+  }

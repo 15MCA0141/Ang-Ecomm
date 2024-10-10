@@ -1,0 +1,20 @@
+@if (searchedProducts) {
+    <div class="row search-item" *ngFor="let product of searchedProducts">
+        <div class="col-sm-3">
+            <a routerLink="/product-details/{{product.id}}">
+            <img class="product-img" src={{product.image}} alt={{product.name}}>
+        </a>
+        </div>
+        <div class="col-sm-8 details">
+            <h6 routerLink="/product-details/{{product.id}}">{{product.name}}</h6>
+            <p><b>₹ {{product.price}}/-</b></p>
+            <p><span>Color: {{product.color}}</span><span>Category: {{product.category}} </span></p>
+            <p>{{product.description}}</p>
+        </div>
+    </div>
+  }
+  @else {
+    <div class="row search-item-not-found">
+        <h3>No products found!</h3>
+    </div>
+  }

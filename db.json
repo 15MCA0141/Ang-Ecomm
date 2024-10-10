@@ -70,6 +70,32 @@
       "id": "ea42",
       "email": "kumar.kush111@gmail.com",
       "Password": "abc@123"
+    },
+    {
+      "name": "Kushal Kumar",
+      "Password": "abc@123",
+      "email": "kushal@user.com",
+      "id": "EkM1gV9"
+    },
+    {
+      "name": "",
+      "email": "",
+      "Password": "",
+      "id": "BLfNq44"
+    }
+  ],
+  "user": [
+    {
+      "name": "Kushal Kumar",
+      "Password": "abc@123",
+      "email": "kushal@user.com",
+      "id": 1
+    },
+    {
+      "name": "Virat Kohli",
+      "Password": "abc@123",
+      "email": "virat@user.com",
+      "id": 2
     }
   ],
   "products": [
@@ -121,20 +147,20 @@
     {
       "name": "Samsung Galaxy S24 Ultra",
       "price": "132000",
-      "color": "Titanium Gray",
+      "color": "Gray",
       "category": "Smartphone",
       "description": "Samsung Galaxy S24 Ultra 5G AI Smartphone (12GB, 512GB)",
       "image": "https://m.media-amazon.com/images/I/81vxWpPpgNL._AC_UY327_FMwebp_QL65_.jpg",
       "id": "e34a"
     },
     {
-      "id": "3ac9",
       "name": "OnePlus Charger 100w",
       "price": "1089",
-      "color": "White and Red",
+      "color": "Red",
       "category": "Mobile Accessories",
       "description": "Oneplus Charger Original 100W Ultra Fast Charger with USB to C Dash SUPERVOOC Cable for Oneplus",
-      "image": "https://m.media-amazon.com/images/I/41VweR-L7TL.jpg"
+      "image": "https://m.media-amazon.com/images/I/41VweR-L7TL.jpg",
+      "id": "3ac9"
     },
     {
       "id": "144e",
@@ -144,6 +170,44 @@
       "category": "Headphones",
       "description": "Sony WH-1000XM4 Industry Leading Wireless Noise Cancellation Bluetooth Over Ear Headphones with Mic",
       "image": "https://m.media-amazon.com/images/I/51DkbWZIg+L._SL1500_.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "name": "LG Monitor",
+      "price": "9999",
+      "color": "Black",
+      "category": "Computer Peripherals",
+      "description": "LG 27\" (68.58 cm) IPS Full HD monitor",
+      "image": "https://www.lg.com/content/dam/channel/wcms/in/images/monitors/27mr400-b_atrq_eail_in_c/gallery/27MR400-B-DZ-04.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": "5c55",
+      "id": 1
+    },
+    {
+      "name": "LG Monitor",
+      "price": "9999",
+      "color": "Black",
+      "category": "Computer Peripherals",
+      "description": "LG 27\" (68.58 cm) IPS Full HD monitor",
+      "image": "https://www.lg.com/content/dam/channel/wcms/in/images/monitors/27mr400-b_atrq_eail_in_c/gallery/27MR400-B-DZ-04.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": "5c55",
+      "id": 2
+    },
+    {
+      "name": "LG Monitor",
+      "price": "9999",
+      "color": "Black",
+      "category": "Computer Peripherals",
+      "description": "LG 27\" (68.58 cm) IPS Full HD monitor",
+      "image": "https://www.lg.com/content/dam/channel/wcms/in/images/monitors/27mr400-b_atrq_eail_in_c/gallery/27MR400-B-DZ-04.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": "5c55",
+      "id": 3
     }
   ]
 }
